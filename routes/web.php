@@ -33,4 +33,13 @@ Route::get('/a-propos', function () {
 Route::get('/contact', function () {
     return view('contact');
 })->name('contact');
+
+Route::get('/detailsA', function () {
+    return view('detailsA');
+})->name('detailsA');
+
+Route::get('/detailsP', function () {
+    return view('detailsP');
+})->name('detailsP');
+
 ?>

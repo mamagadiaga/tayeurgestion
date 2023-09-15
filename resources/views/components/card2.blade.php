@@ -2,40 +2,34 @@
 use App\View\Components\Card2;
 ?>
 
-<div class="card border-0 rounded-3">
-  <div class="card-bg" style="background-image: url('/medias/62.png');"></div>
-  <div class="card-icon">
-    <i class="fas fa-camera"></i>
-  </div>
-  <div class="card-body">
-    <p class="fw-bold">6 Point 9</p>
-    <div class="card-rating">
-      <i class="fa-solid fa-star text-warning"></i>
-      <i class="fa-solid fa-star text-warning"></i>
-      <i class="fa-solid fa-star text-warning"></i>
-      <i class="fa-solid fa-star text-warning"></i>
-      <i class="fa-solid fa-star text-warning"></i>
-    </div>
-    <p class="text-muted">1 avis</p>
-    <div class="card-actions">
-      <button class="btn btn-success rounded-pill"><i class="fab fa-whatsapp"></i></button>
-      <button class="btn btn-danger rounded-pill"><i class="fas fa-phone"></i></button>
-      <button class="btn btn-danger rounded-pill"><i class="fas fa-comment"></i></button>
-    </div>
-  </div>
-</div>
 
+
+<a href="{{ route('detailsP') }}" class='text-decoration-none text-dark'> 
+<div class="card shadow border-0 rounded-3">
+  <div class="card-bg" style="background-image: url('/medias/cardimage.png');"></div>
+  <div class="card-icon bg-white d-flex justify-content-center align-items-center">
+  <img src="/medias/6.9.png" class="w-100" alt="...">
+</div>
+<label class="text-white p-2 bg-black d-flex justify-content-between">
+    Taille Basse <span class='text-end text-secondary'>Hier 23:50</span>
+</label>
+    <div class="d-flex align-items-center mt-3">
+      <button class="btn btn-transparent text-danger"><i class="fa-regular fa-heart"></i> 20k</button>
+      <button class="btn btn-transparent text-danger"><i class="fa-solid fa-share-nodes"></i> 34</button>
+      <button class="btn btn-transparent text-danger"><i class="fa-solid fa-comment-dots"></i> 576</button>
+    </div>
+</div>
+</a>
 
 <style>
     .card {
   position: relative;
   overflow: hidden;
-  max-width: 300px; /* Ajustez la largeur maximale selon vos besoins */
 }
 
 .card-bg {
   width: 100%;
-  height: 200px; /* Ajustez la hauteur de l'image de fond */
+  height: 250px;
   background-size: cover;
   background-position: center;
 }
@@ -48,17 +42,9 @@ use App\View\Components\Card2;
   color: white;
   padding: 5px;
   border-radius: 50%;
+  width: 50px;
+  height:50px;
 }
 
-
-.card-rating {
-  color: gold; /* Couleur des étoiles */
-  margin-bottom: 10px;
-}
-
-.card-actions {
-  display: flex;
-  justify-content: space-between;
-}
 
 </style>

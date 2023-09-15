@@ -2,6 +2,7 @@
 use App\View\Components\Card;
 ?>
 
+<a href="{{ route('detailsA') }}" class='text-decoration-none text-dark'> 
 <div class="card  shadow border-0 rounded-3">
   <img src="/medias/62.png" class="card-img-top" alt="...">
   <div class="card-body">
@@ -26,3 +27,4 @@ use App\View\Components\Card;
 
   </div>
 </div>
+</a>
