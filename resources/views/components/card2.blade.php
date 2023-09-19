@@ -6,12 +6,12 @@ use App\View\Components\Card2;
 
 <a href="{{ route('detailsP') }}" class='text-decoration-none text-dark'> 
 <div class="card shadow border-0 rounded-3">
-  <div class="card-bg" style="background-image: url('/medias/cardimage.png');"></div>
+  <div class="card-bg" style="background-image: url('{{ $attributes['image'] }}');"></div>
   <div class="card-icon bg-white d-flex justify-content-center align-items-center">
-  <img src="/medias/6.9.png" class="w-100" alt="...">
+  <img src="{{ $attributes['img'] }}" class="w-100" alt="...">
 </div>
 <label class="text-white p-2 bg-black d-flex justify-content-between">
-    Taille Basse <span class='text-end text-secondary'>Hier 23:50</span>
+{{ $attributes['title'] }} <span class='text-end text-secondary'>Hier 23:50</span>
 </label>
     <div class="d-flex align-items-center mt-3">
       <button class="btn btn-transparent text-danger"><i class="fa-regular fa-heart"></i> 20k</button>

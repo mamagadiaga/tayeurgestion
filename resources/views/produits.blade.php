@@ -16,7 +16,7 @@
     <p class='fw-bold mt-5'>Tous les items</p>
     <h4 class='fw-light'>Nos <span class='fw-bold'>Produits</span></h4>
     <div class="row">
-    <div class="col-4">
+    <div class="col-md-4">
 <div class='bg-white rounded-3 mt-3 shadow'>
 <div class='p-4 pb-0'>
 <select class="form-select border-0 shadow-none" aria-label="Default select example">
@@ -118,7 +118,7 @@
 </div>
 </div>
         </div>
-        <div class="col-8">
+        <div class="col-md-8">
            
             <select class="form-select bg-light mt-5 mb-3 border-0 shadow-none text-end" aria-label="Default select example">
   <option selected>Trier par les plus pertinents</option>
@@ -126,213 +126,180 @@
   <option value="2">Two</option>
   <option value="3">Three</option>
 </select> 
-<div class="row">
+<div class="row mt-4">
                 <div class="col mb-4">
-                <x-card2></x-card2>
+                <x-card2 image="/medias/card-image.png" title="Taille Haute" img="/medias/6.9.png"></x-card2>
                 </div>
                 <div class="col mb-4">
-                <x-card2></x-card2>
+                <x-card2 image="/medias/card-image (1).png" title="Grand Boubou" img="/medias/snc.png"></x-card2>
                 </div>
                 <div class="col mb-4">
-                <x-card2></x-card2>
+                <x-card2 image="/medias/cardimage.png" title="Taille Basse" img="/medias/heritage-couture.png"></x-card2>
                 </div>
             </div>
 <div class="row mt-4">
-                <div class="col mb-4">
-                <x-card2></x-card2>
+<div class="col mb-4">
+<x-card2 image="/medias/card-image (1).png" title="Grand Boubou" img="/medias/snc.png"></x-card2>
                 </div>
                 <div class="col mb-4">
-                <x-card2></x-card2>
+                <x-card2 image="/medias/cardimage.png" title="Taille Basse" img="/medias/heritage-couture.png"></x-card2>
                 </div>
                 <div class="col mb-4">
-                <x-card2></x-card2>
+                <x-card2 image="/medias/card-image.png" title="Taille Haute" img="/medias/6.9.png"></x-card2>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col mb-4">
+                <x-card2 image="/medias/card-image.png" title="Taille Haute" img="/medias/6.9.png"></x-card2>
+                </div>
+                <div class="col mb-4">
+                <x-card2 image="/medias/card-image (1).png" title="Grand Boubou" img="/medias/snc.png"></x-card2>
+                </div>
+                <div class="col mb-4">
+                <x-card2 image="/medias/cardimage.png" title="Taille Basse" img="/medias/heritage-couture.png"></x-card2>
                 </div>
             </div>
 <div class="row mt-4">
-                <div class="col mb-4">
-                <x-card2></x-card2>
+<div class="col mb-4">
+<x-card2 image="/medias/card-image (1).png" title="Grand Boubou" img="/medias/snc.png"></x-card2>
                 </div>
                 <div class="col mb-4">
-                <x-card2></x-card2>
+                <x-card2 image="/medias/cardimage.png" title="Taille Basse" img="/medias/heritage-couture.png"></x-card2>
                 </div>
                 <div class="col mb-4">
-                <x-card2></x-card2>
+                <x-card2 image="/medias/card-image.png" title="Taille Haute" img="/medias/6.9.png"></x-card2>
+                </div>
+            </div>
+            <div class="row mt-4">
+<div class="col mb-4">
+<x-card2 image="/medias/card-image (1).png" title="Grand Boubou" img="/medias/snc.png"></x-card2>
+                </div>
+                <div class="col mb-4">
+                <x-card2 image="/medias/cardimage.png" title="Taille Basse" img="/medias/heritage-couture.png"></x-card2>
+                </div>
+                <div class="col mb-4">
+                <x-card2 image="/medias/card-image.png" title="Taille Haute" img="/medias/6.9.png"></x-card2>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col mb-4">
+                <x-card2 image="/medias/card-image.png" title="Taille Haute" img="/medias/6.9.png"></x-card2>
+                </div>
+                <div class="col mb-4">
+                <x-card2 image="/medias/card-image (1).png" title="Grand Boubou" img="/medias/snc.png"></x-card2>
+                </div>
+                <div class="col mb-4">
+                <x-card2 image="/medias/cardimage.png" title="Taille Basse" img="/medias/heritage-couture.png"></x-card2>
                 </div>
             </div>
 <div class="row mt-4">
-                <div class="col mb-4">
-                <x-card2></x-card2>
+<div class="col mb-4">
+<x-card2 image="/medias/card-image (1).png" title="Grand Boubou" img="/medias/snc.png"></x-card2>
                 </div>
                 <div class="col mb-4">
-                <x-card2></x-card2>
+                <x-card2 image="/medias/cardimage.png" title="Taille Basse" img="/medias/heritage-couture.png"></x-card2>
                 </div>
                 <div class="col mb-4">
-                <x-card2></x-card2>
+                <x-card2 image="/medias/card-image.png" title="Taille Haute" img="/medias/6.9.png"></x-card2>
+                </div>
+            </div>
+            <div class="row mt-4">
+<div class="col mb-4">
+<x-card2 image="/medias/card-image (1).png" title="Grand Boubou" img="/medias/snc.png"></x-card2>
+                </div>
+                <div class="col mb-4">
+                <x-card2 image="/medias/cardimage.png" title="Taille Basse" img="/medias/heritage-couture.png"></x-card2>
+                </div>
+                <div class="col mb-4">
+                <x-card2 image="/medias/card-image.png" title="Taille Haute" img="/medias/6.9.png"></x-card2>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col mb-4">
+                <x-card2 image="/medias/card-image.png" title="Taille Haute" img="/medias/6.9.png"></x-card2>
+                </div>
+                <div class="col mb-4">
+                <x-card2 image="/medias/card-image (1).png" title="Grand Boubou" img="/medias/snc.png"></x-card2>
+                </div>
+                <div class="col mb-4">
+                <x-card2 image="/medias/cardimage.png" title="Taille Basse" img="/medias/heritage-couture.png"></x-card2>
                 </div>
             </div>
 <div class="row mt-4">
-                <div class="col mb-4">
-                <x-card2></x-card2>
+<div class="col mb-4">
+<x-card2 image="/medias/card-image (1).png" title="Grand Boubou" img="/medias/snc.png"></x-card2>
                 </div>
                 <div class="col mb-4">
-                <x-card2></x-card2>
+                <x-card2 image="/medias/cardimage.png" title="Taille Basse" img="/medias/heritage-couture.png"></x-card2>
                 </div>
                 <div class="col mb-4">
-                <x-card2></x-card2>
+                <x-card2 image="/medias/card-image.png" title="Taille Haute" img="/medias/6.9.png"></x-card2>
+                </div>
+            </div>
+            <div class="row mt-4">
+<div class="col mb-4">
+<x-card2 image="/medias/card-image (1).png" title="Grand Boubou" img="/medias/snc.png"></x-card2>
+                </div>
+                <div class="col mb-4">
+                <x-card2 image="/medias/cardimage.png" title="Taille Basse" img="/medias/heritage-couture.png"></x-card2>
+                </div>
+                <div class="col mb-4">
+                <x-card2 image="/medias/card-image.png" title="Taille Haute" img="/medias/6.9.png"></x-card2>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col mb-4">
+                <x-card2 image="/medias/card-image.png" title="Taille Haute" img="/medias/6.9.png"></x-card2>
+                </div>
+                <div class="col mb-4">
+                <x-card2 image="/medias/card-image (1).png" title="Grand Boubou" img="/medias/snc.png"></x-card2>
+                </div>
+                <div class="col mb-4">
+                <x-card2 image="/medias/cardimage.png" title="Taille Basse" img="/medias/heritage-couture.png"></x-card2>
                 </div>
             </div>
 <div class="row mt-4">
-                <div class="col mb-4">
-                <x-card2></x-card2>
+<div class="col mb-4">
+<x-card2 image="/medias/card-image (1).png" title="Grand Boubou" img="/medias/snc.png"></x-card2>
                 </div>
                 <div class="col mb-4">
-                <x-card2></x-card2>
+                <x-card2 image="/medias/cardimage.png" title="Taille Basse" img="/medias/heritage-couture.png"></x-card2>
                 </div>
                 <div class="col mb-4">
-                <x-card2></x-card2>
+                <x-card2 image="/medias/card-image.png" title="Taille Haute" img="/medias/6.9.png"></x-card2>
+                </div>
+            </div>
+            <div class="row mt-4">
+<div class="col mb-4">
+<x-card2 image="/medias/card-image (1).png" title="Grand Boubou" img="/medias/snc.png"></x-card2>
+                </div>
+                <div class="col mb-4">
+                <x-card2 image="/medias/cardimage.png" title="Taille Basse" img="/medias/heritage-couture.png"></x-card2>
+                </div>
+                <div class="col mb-4">
+                <x-card2 image="/medias/card-image.png" title="Taille Haute" img="/medias/6.9.png"></x-card2>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col mb-4">
+                <x-card2 image="/medias/card-image.png" title="Taille Haute" img="/medias/6.9.png"></x-card2>
+                </div>
+                <div class="col mb-4">
+                <x-card2 image="/medias/card-image (1).png" title="Grand Boubou" img="/medias/snc.png"></x-card2>
+                </div>
+                <div class="col mb-4">
+                <x-card2 image="/medias/cardimage.png" title="Taille Basse" img="/medias/heritage-couture.png"></x-card2>
                 </div>
             </div>
 <div class="row mt-4">
-                <div class="col mb-4">
-                <x-card2></x-card2>
+<div class="col mb-4">
+<x-card2 image="/medias/card-image (1).png" title="Grand Boubou" img="/medias/snc.png"></x-card2>
                 </div>
                 <div class="col mb-4">
-                <x-card2></x-card2>
+                <x-card2 image="/medias/cardimage.png" title="Taille Basse" img="/medias/heritage-couture.png"></x-card2>
                 </div>
                 <div class="col mb-4">
-                <x-card2></x-card2>
-                </div>
-            </div>
-<div class="row mt-4">
-                <div class="col mb-4">
-                <x-card2></x-card2>
-                </div>
-                <div class="col mb-4">
-                <x-card2></x-card2>
-                </div>
-                <div class="col mb-4">
-                <x-card2></x-card2>
-                </div>
-            </div>
-<div class="row mt-4">
-                <div class="col mb-4">
-                <x-card2></x-card2>
-                </div>
-                <div class="col mb-4">
-                <x-card2></x-card2>
-                </div>
-                <div class="col mb-4">
-                <x-card2></x-card2>
-                </div>
-            </div>
-<div class="row mt-4">
-                <div class="col mb-4">
-                <x-card2></x-card2>
-                </div>
-                <div class="col mb-4">
-                <x-card2></x-card2>
-                </div>
-                <div class="col mb-4">
-                <x-card2></x-card2>
-                </div>
-            </div>
-<div class="row mt-4">
-                <div class="col mb-4">
-                <x-card2></x-card2>
-                </div>
-                <div class="col mb-4">
-                <x-card2></x-card2>
-                </div>
-                <div class="col mb-4">
-                <x-card2></x-card2>
-                </div>
-            </div>
-<div class="row mt-4">
-                <div class="col mb-4">
-                <x-card2></x-card2>
-                </div>
-                <div class="col mb-4">
-                <x-card2></x-card2>
-                </div>
-                <div class="col mb-4">
-                <x-card2></x-card2>
-                </div>
-            </div>
-<div class="row mt-4">
-                <div class="col mb-4">
-                <x-card2></x-card2>
-                </div>
-                <div class="col mb-4">
-                <x-card2></x-card2>
-                </div>
-                <div class="col mb-4">
-                <x-card2></x-card2>
-                </div>
-            </div>
-<div class="row mt-4">
-                <div class="col mb-4">
-                <x-card2></x-card2>
-                </div>
-                <div class="col mb-4">
-                <x-card2></x-card2>
-                </div>
-                <div class="col mb-4">
-                <x-card2></x-card2>
-                </div>
-            </div>
-<div class="row mt-4">
-                <div class="col mb-4">
-                <x-card2></x-card2>
-                </div>
-                <div class="col mb-4">
-                <x-card2></x-card2>
-                </div>
-                <div class="col mb-4">
-                <x-card2></x-card2>
-                </div>
-            </div>
-<div class="row mt-4">
-                <div class="col mb-4">
-                <x-card2></x-card2>
-                </div>
-                <div class="col mb-4">
-                <x-card2></x-card2>
-                </div>
-                <div class="col mb-4">
-                <x-card2></x-card2>
-                </div>
-            </div>
-<div class="row mt-4">
-                <div class="col mb-4">
-                <x-card2></x-card2>
-                </div>
-                <div class="col mb-4">
-                <x-card2></x-card2>
-                </div>
-                <div class="col mb-4">
-                <x-card2></x-card2>
-                </div>
-            </div>
-<div class="row mt-4">
-                <div class="col mb-4">
-                <x-card2></x-card2>
-                </div>
-                <div class="col mb-4">
-                <x-card2></x-card2>
-                </div>
-                <div class="col mb-4">
-                <x-card2></x-card2>
-                </div>
-            </div>
-<div class="row mt-4 mb-5">
-                <div class="col mb-4">
-                <x-card2></x-card2>
-                </div>
-                <div class="col mb-4">
-                <x-card2></x-card2>
-                </div>
-                <div class="col mb-4">
-                <x-card2></x-card2>
+                <x-card2 image="/medias/card-image.png" title="Taille Haute" img="/medias/6.9.png"></x-card2>
                 </div>
             </div>
             <div class="container d-flex justify-content-center align-items-center">

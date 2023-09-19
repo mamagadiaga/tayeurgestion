@@ -6,7 +6,7 @@ use App\View\Components\Footer;
 
 <footer class='container-fluid p-0 p-5 bg-danger text-white'>
 <div class="row">
-    <div class="col-md-3 mb-4``">
+    <div class="col-md-3 mb-4"> 
     <img src="/medias/logo2.png" alt="Logo" class='mb-3' width="100" height="" />
   <h6>
   <a class="text-decoration-none text-white" href="/a-propos">À propos de nous</a> 
@@ -14,7 +14,7 @@ use App\View\Components\Footer;
   <h6>
   <a class="text-decoration-none text-white" href="/contacts">Contacts</a>
   </h6>
-  <h6 class="d-flex align-items-center mt-3">
+  <h6 class="d-flex align-items-center mt-3 mb-3">
         <button class="btn btn-light rounded-pill text-danger me-2"><i class="fa-brands fa-instagram"></i></button>
         <button class="btn btn-light rounded-pill text-danger me-2"><i class="fa-solid fa-globe"></i></button>
         <button class="btn btn-light rounded-pill text-danger me-2"><i class="fa-brands fa-twitter"></i></button>
@@ -25,9 +25,6 @@ use App\View\Components\Footer;
     </div>
     <div class="col-md-3 mb-4">
         <h5 class='mb-3'>Info</h5>
-        <h6>
-        <a class="text-decoration-none text-white" href="/">Accueil</a>
-        </h6>
         <h6>            <a class="text-decoration-none text-white" href="/">Accueil</a>
 </h6>
         <h6>        <a class="text-decoration-none text-white" href="/ateliers">Ateliers</a>

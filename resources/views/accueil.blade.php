@@ -24,52 +24,52 @@
             <div class="carousel-inner">
                 <div class="carousel-item active">
                     <div class="gradient-overlay"></div>
-                    <img src="/medias/carousel1.png" class="d-block w-100" alt="...">
+                    <img src="/medias/carousel1.png" class="d-block w-100 bgclass">
                     <div class="carousel-caption d-flex justify-content-center align-items-center flex-column"  style="margin-bottom: 100px;">
                         <h1>Découvrez votre prochaine session de créativité</h1>
                         <p>Some representative placeholder content for the first slide.</p>
-                        <form class="input-group w-50 mt-3">
+                        <form class="input-group inputG mt-3">
                             <select class="form-select" aria-label="Catégorie">
                                 <option value="toutes">Catégories</option>
                                 <option value="cat1">Catégorie 1</option>
                                 <option value="cat2">Catégorie 2</option>
                                 <option value="cat3">Catégorie 3</option>
                             </select>
-                            <button class="btn btn-danger" type="submit">Rechercher</button>
+                            <button class="btn btn3 text-white" type="submit">Rechercher</button>
                         </form>
                     </div>
                 </div>
                 <div class="carousel-item">
                     <div class="gradient-overlay"></div>
-                    <img src="/medias/carousel1.png" class="d-block w-100" alt="...">
+                    <img src="/medias/carousel1.png" class="d-block w-100 bgclass" alt="...">
                     <div class="carousel-caption  d-flex justify-content-center align-items-center flex-column"  style="margin-bottom: 100px;">
                         <h1>Découvrez votre prochaine session de créativité</h1>
                         <p>Some representative placeholder content for the second slide.</p>
-                        <form class="input-group w-50 mt-3">
+                        <form class="input-group inputG mt-3">
                             <select class="form-select" aria-label="Catégorie">
                                 <option value="toutes">Catégories</option>
                                 <option value="cat1">Catégorie 1</option>
                                 <option value="cat2">Catégorie 2</option>
                                 <option value="cat3">Catégorie 3</option>
                             </select>
-                            <button class="btn btn-danger" type="submit">Rechercher</button>
+                            <button class="btn btn3 text-white" type="submit">Rechercher</button>
                         </form>
                     </div>
                 </div>
                 <div class="carousel-item">
                     <div class="gradient-overlay"></div>
-                    <img src="/medias/carousel1.png" class="d-block w-100" alt="...">
+                    <img src="/medias/carousel1.png" class="d-block w-100 bgclass" alt="...">
                     <div class="carousel-caption  d-flex justify-content-center align-items-center flex-column"  style="margin-bottom: 100px;">
                         <h1>Découvrez votre prochaine session de créativité</h1>
                         <p>Some representative placeholder content for the second slide.</p>
-                        <form class="input-group w-50 mt-3">
+                        <form class="input-group inputG mt-3">
                             <select class="form-select" aria-label="Catégorie">
                                 <option value="toutes">Catégories</option>
                                 <option value="cat1">Catégorie 1</option>
                                 <option value="cat2">Catégorie 2</option>
                                 <option value="cat3">Catégorie 3</option>
                             </select>
-                            <button class="btn btn-danger" type="submit">Rechercher</button>
+                            <button class="btn btn3 text-white" type="submit">Rechercher</button>
                         </form>
                     </div>
                 </div>
@@ -80,9 +80,9 @@
 
 
 <section id='section2'>
-    <div class="container-fluid p-5">
+    <div class="container-fluid p-sm-0 p-md-5 p-lg-5">
         <div class="row">
-            <div class="col p-5 text-white">
+            <div class="col-md-6 p-5 text-white">
                 <h4>
                     Vous etes a la recherche des meilleurs couturiers?
                 </h4>
@@ -100,7 +100,7 @@
     <p class='fw-bold'>Tous les items</p>
     <h4 class='fw-light'>Nos ateliers de <span class='fw-bold'>couture</span></h4>
     <div class="row">
-        <div class="col-4">
+        <div class="col-md-4">
 <div class='bg-white rounded-3 mt-3 shadow'>
 <div class='p-4 pb-0'>
 <select class="form-select border-0 shadow-none" aria-label="Default select example">
@@ -202,7 +202,7 @@
 </div>
 </div>
         </div>
-        <div class="col-8">
+        <div class="col-md-8">
            
             <select class="form-select bg-light mt-5 mb-3 border-0 shadow-none text-end" aria-label="Default select example">
   <option selected>Trier par les plus pertinents</option>
@@ -212,68 +212,79 @@
 </select> 
 <div class="row">
                 <div class="col mb-4">
-                <x-card></x-card>
+                <x-card image="/medias/62.png" title="6 Point 9"></x-card>
                 </div>
                 <div class="col mb-4">
-                <x-card></x-card>
+                <x-card image="/medias/snc.png" title="SN Couture"></x-card>
                 </div>
                 <div class="col mb-4">
-                <x-card></x-card>
-                </div>
-            </div>
-<div class="row mt-4">
-                <div class="col mb-4">
-                <x-card></x-card>
-                </div>
-                <div class="col mb-4">
-                <x-card></x-card>
-                </div>
-                <div class="col mb-4">
-                <x-card></x-card>
+                <x-card image="/medias/624.png" title="Djolof Art"></x-card>
                 </div>
             </div>
 <div class="row mt-4">
                 <div class="col mb-4">
-                <x-card></x-card>
+                <x-card image="/medias/heritage-couture.png" title="Heritage"></x-card>
                 </div>
                 <div class="col mb-4">
-                <x-card></x-card>
+                <x-card image="/medias/624.png" title="Djolof Art"></x-card>
                 </div>
                 <div class="col mb-4">
-                <x-card></x-card>
-                </div>
-            </div>
-<div class="row mt-4">
-                <div class="col mb-4">
-                <x-card></x-card>
-                </div>
-                <div class="col mb-4">
-                <x-card></x-card>
-                </div>
-                <div class="col mb-4">
-                <x-card></x-card>
+                <x-card image="/medias/62.png" title="Baouda"></x-card>
                 </div>
             </div>
 <div class="row mt-4">
-                <div class="col mb-4">
-                <x-card></x-card>
+<div class="col mb-4">
+                <x-card image="/medias/62.png" title="6 Point 9"></x-card>
                 </div>
                 <div class="col mb-4">
-                <x-card></x-card>
+                <x-card image="/medias/snc.png" title="SN Couture"></x-card>
                 </div>
                 <div class="col mb-4">
-                <x-card></x-card>
+                <x-card image="/medias/624.png" title="Djolof Art"></x-card>
                 </div>
             </div>
-<div class="row mt-4 mb-5">
+            <div class="row mt-4">
                 <div class="col mb-4">
-                <x-card></x-card>
+                <x-card image="/medias/heritage-couture.png" title="Heritage"></x-card>
                 </div>
                 <div class="col mb-4">
-                <x-card></x-card>
+                <x-card image="/medias/624.png" title="Djolof Art"></x-card>
                 </div>
                 <div class="col mb-4">
-                <x-card></x-card>
+                <x-card image="/medias/62.png" title="Baouda"></x-card>
+                </div>
+            </div>
+<div class="row mt-4">
+<div class="col mb-4">
+                <x-card image="/medias/62.png" title="6 Point 9"></x-card>
+                </div>
+                <div class="col mb-4">
+                <x-card image="/medias/snc.png" title="SN Couture"></x-card>
+                </div>
+                <div class="col mb-4">
+                <x-card image="/medias/624.png" title="Djolof Art"></x-card>
+                </div>
+            </div>
+            <div class="row mt-4">
+                <div class="col mb-4">
+                <x-card image="/medias/heritage-couture.png" title="Heritage"></x-card>
+                </div>
+                <div class="col mb-4">
+                <x-card image="/medias/624.png" title="Djolof Art"></x-card>
+                </div>
+                <div class="col mb-4">
+                <x-card image="/medias/62.png" title="Baouda"></x-card>
+                </div>
+            </div>
+<div class="row mt-4">
+<div class="col mb-4">
+                <x-card image="/medias/62.png" title="6 Point 9"></x-card>
+                </div>
+                <div class="col mb-4">
+                <x-card image="/medias/snc.png" title="SN Couture"></x-card>
+                </div>
+                <div class="col mb-4">
+                <x-card image="/medias/624.png" title="Djolof Art"></x-card>
                 </div>
             </div>
             <div class="container d-flex justify-content-center align-items-center">
@@ -310,4 +321,25 @@
     background-repeat: no-repeat;
     background-size: cover;
 }
+.btn3{
+    background-color: #E83538 !important;
+}
+
+.bgclass{
+        height: auto;
+    }
+.inputG{
+    width: 50%;
+}
+@media (max-width:996px) {
+    .bgclass{
+        height: 600px;
+    }
+    .inputG{
+    width: 100%;
+}
+}
+
+
+
 </style>

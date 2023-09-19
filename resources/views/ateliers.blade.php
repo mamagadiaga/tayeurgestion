@@ -16,7 +16,7 @@
     <p class='fw-bold mt-5'>Tous les items</p>
     <h4 class='fw-light'>Nos ateliers de <span class='fw-bold'>couture</span></h4>
     <div class="row">
-        <div class="col-4">
+        <div class="col-md-4">
 <div class='bg-white rounded-3 mt-3 shadow'>
 <div class='p-4 pb-0'>
 <select class="form-select border-0 shadow-none" aria-label="Default select example">
@@ -118,7 +118,7 @@
 </div>
 </div>
         </div>
-        <div class="col-8">
+        <div class="col-md-8">
            
             <select class="form-select bg-light mt-5 mb-3 border-0 shadow-none text-end" aria-label="Default select example">
   <option selected>Trier par les plus pertinents</option>
@@ -128,68 +128,79 @@
 </select> 
 <div class="row">
                 <div class="col mb-4">
-                <x-card></x-card>
+                <x-card image="/medias/62.png" title="6 Point 9"></x-card>
                 </div>
                 <div class="col mb-4">
-                <x-card></x-card>
+                <x-card image="/medias/snc.png" title="SN Couture"></x-card>
                 </div>
                 <div class="col mb-4">
-                <x-card></x-card>
-                </div>
-            </div>
-<div class="row mt-4">
-                <div class="col mb-4">
-                <x-card></x-card>
-                </div>
-                <div class="col mb-4">
-                <x-card></x-card>
-                </div>
-                <div class="col mb-4">
-                <x-card></x-card>
+                <x-card image="/medias/624.png" title="Djolof Art"></x-card>
                 </div>
             </div>
 <div class="row mt-4">
                 <div class="col mb-4">
-                <x-card></x-card>
+                <x-card image="/medias/heritage-couture.png" title="Heritage"></x-card>
                 </div>
                 <div class="col mb-4">
-                <x-card></x-card>
+                <x-card image="/medias/624.png" title="Djolof Art"></x-card>
                 </div>
                 <div class="col mb-4">
-                <x-card></x-card>
-                </div>
-            </div>
-<div class="row mt-4">
-                <div class="col mb-4">
-                <x-card></x-card>
-                </div>
-                <div class="col mb-4">
-                <x-card></x-card>
-                </div>
-                <div class="col mb-4">
-                <x-card></x-card>
+                <x-card image="/medias/62.png" title="Baouda"></x-card>
                 </div>
             </div>
 <div class="row mt-4">
-                <div class="col mb-4">
-                <x-card></x-card>
+<div class="col mb-4">
+                <x-card image="/medias/62.png" title="6 Point 9"></x-card>
                 </div>
                 <div class="col mb-4">
-                <x-card></x-card>
+                <x-card image="/medias/snc.png" title="SN Couture"></x-card>
                 </div>
                 <div class="col mb-4">
-                <x-card></x-card>
+                <x-card image="/medias/624.png" title="Djolof Art"></x-card>
                 </div>
             </div>
-<div class="row mt-4 mb-5">
+            <div class="row mt-4">
                 <div class="col mb-4">
-                <x-card></x-card>
+                <x-card image="/medias/heritage-couture.png" title="Heritage"></x-card>
                 </div>
                 <div class="col mb-4">
-                <x-card></x-card>
+                <x-card image="/medias/624.png" title="Djolof Art"></x-card>
                 </div>
                 <div class="col mb-4">
-                <x-card></x-card>
+                <x-card image="/medias/62.png" title="Baouda"></x-card>
+                </div>
+            </div>
+<div class="row mt-4">
+<div class="col mb-4">
+                <x-card image="/medias/62.png" title="6 Point 9"></x-card>
+                </div>
+                <div class="col mb-4">
+                <x-card image="/medias/snc.png" title="SN Couture"></x-card>
+                </div>
+                <div class="col mb-4">
+                <x-card image="/medias/624.png" title="Djolof Art"></x-card>
+                </div>
+            </div>
+            <div class="row mt-4">
+                <div class="col mb-4">
+                <x-card image="/medias/heritage-couture.png" title="Heritage"></x-card>
+                </div>
+                <div class="col mb-4">
+                <x-card image="/medias/624.png" title="Djolof Art"></x-card>
+                </div>
+                <div class="col mb-4">
+                <x-card image="/medias/62.png" title="Baouda"></x-card>
+                </div>
+            </div>
+<div class="row mt-4">
+<div class="col mb-4">
+                <x-card image="/medias/62.png" title="6 Point 9"></x-card>
+                </div>
+                <div class="col mb-4">
+                <x-card image="/medias/snc.png" title="SN Couture"></x-card>
+                </div>
+                <div class="col mb-4">
+                <x-card image="/medias/624.png" title="Djolof Art"></x-card>
                 </div>
             </div>
             <div class="container d-flex justify-content-center align-items-center">

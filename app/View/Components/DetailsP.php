@@ -21,6 +21,6 @@ class DetailsP extends Component
      */
     public function render(): View|Closure|string
     {
-        return view('components.details-p');
+        return view('components.detailsP');
     }
 }

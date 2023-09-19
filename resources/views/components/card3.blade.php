@@ -11,7 +11,7 @@ use App\View\Components\Card3;
             <img src="/medias/ndiaga.png" class="w-100" alt="...">
         </div>
         <div class="col-md-6 d-flex justify-content-center align-items-center">
-            <div class='p-5'>
+            <div class='p-lg-5 p-sm-0 p-md-5'>
                 <h2 class ='text-dark'>Qui sommes-nous</h2>
                 <p class  ='text-secondary'>
                     Lorem ipsum dolor sit amet consectetur adipisicing elit. 
@@ -24,7 +24,7 @@ use App\View\Components\Card3;
     </div>
     <div class="row">
         <div class="col-md-6 d-flex justify-content-center align-items-center">
-            <div class='p-5'>
+            <div class='p-lg-5 p-sm-0 p-md-5'>
                 <h2 class ='text-dark'>Notre vision</h2>
                 <p class  ='text-secondary'>
                     Lorem ipsum dolor sit amet consectetur adipisicing elit. 
@@ -43,7 +43,7 @@ use App\View\Components\Card3;
             <img src="/medias/karolina.png" class="w-100" alt="...">
         </div>
         <div class="col-md-6 d-flex justify-content-center align-items-center">
-            <div class='p-5'>
+            <div class='p-lg-5 p-sm-0 p-md-5'>
                 <h2 class ='text-dark'>Notre mission</h2>
                 <p class  ='text-secondary'>
                     Lorem ipsum dolor sit amet consectetur adipisicing elit. 
@@ -56,7 +56,7 @@ use App\View\Components\Card3;
     </div>
     <div class="row">
         <div class="col-md-6 d-flex justify-content-center align-items-center">
-            <div class='p-5'>
+            <div class='p-lg-5 p-sm-0 p-md-5'>
                 <h2 class ='text-dark'>Notre valeur</h2>
                 <p class  ='text-secondary'>
                     Lorem ipsum dolor sit amet consectetur adipisicing elit. 
@@ -70,14 +70,14 @@ use App\View\Components\Card3;
             <img src="/medias/max.png" class="w-100" alt="...">
         </div>
     </div>
-    <section id="tem" class='p-5'>
-<div class="container p-sm-0 p-lg-5">
+    <section id="tem" class=''>
+<div class="container p-md-5 p-sm-0 p-lg-5">
 <div class="row">
-    <div class="col-md-4 mb-4 text-white">
+    <div class="col-md-4 mb-4 mt-4 text-white">
     <div class="card bg-back text-center bg-opacity-2 shadow border-0 rounded-5 d-flex justify-content-center align-items-center flex-column">
-  <div class="card-body">
+  <div class="card-body bodycard rounded-5">
   <p >
-<span class="text-danger fs-1">"</span>
+<span class="text-danger me-2 fs-1"><i class="fa-solid fa-quote-left"></i></span>
     Lorem ipsum, dolor sit amet consectetur adipisicing elit ugit rerum quibusdam nulla quam sequi </p>
     <img src="/medias/Ellipse 9.png" class="w-25" alt="...">
     <h6>JOHN SMITH</h6>
@@ -85,11 +85,11 @@ use App\View\Components\Card3;
 </div>
 </div>
     </div>
-    <div class="col-md-4 mb-4 text-white">
+    <div class="col-md-4 mb-4 mt-4 text-white">
     <div class="card bg-back text-center bg-opacity-2 shadow border-0 rounded-5 d-flex justify-content-center align-items-center flex-column">
-  <div class="card-body">
+  <div class="card-body bodycard rounded-5">
   <p >
-<span class="text-danger fs-1">"</span>
+<span class="text-danger fs-1 me-2"><i class="fa-solid fa-quote-left"></i></span>
     Lorem ipsum, dolor sit amet consectetur adipisicing elit ugit rerum quibusdam nulla quam sequi </p>
     <img src="/medias/Ellipse 9.png" class="w-25" alt="...">
     <h6>JOHN SMITH</h6>
@@ -97,11 +97,11 @@ use App\View\Components\Card3;
 </div>
 </div>
     </div>
-    <div class="col-md-4 mb-4 text-white">
+    <div class="col-md-4 mb-4 mt-4 text-white">
     <div class="card bg-back text-center shadow border-0 rounded-5 d-flex justify-content-center align-items-center flex-column">
-  <div class="card-body">
+  <div class="card-body bodycard rounded-5">
   <p >
-<span class="text-danger fs-1">"</span>
+<span class="text-danger fs-1 me-2"><i class="fa-solid fa-quote-left"></i></span>
     Lorem ipsum, dolor sit amet consectetur adipisicing elit ugit rerum quibusdam nulla quam sequi </p>
     <img src="/medias/Ellipse 9.png" class="w-25" alt="...">
     <h6>JOHN SMITH</h6>
@@ -117,13 +117,17 @@ use App\View\Components\Card3;
     
 
 <style>
-    #tem{
-        background-image:  url('/medias/group.png'), linear-gradient(rgba(0, 0, 0), rgba(0, 0, 0));
+  #tem{
+        background-image:  linear-gradient(rgba(56, 55, 55, 0.6),rgb(56, 55, 55, 0.6)), url('/medias/neuf3.png');
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
+    background-attachment: fixed;
     }
     .bg-back{
-        background-color: rgb(79, 78, 78, 0.5) !important;
+        background-color: rgb(59, 78, 78, 0.5) !important;
+    }
+    .bodycard{
+      border: 10px solid rgb(59, 78, 78, 0.3);
     }
 </style>

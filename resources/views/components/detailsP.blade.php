@@ -1,20 +1,21 @@
 <?php
-use App\View\Components\DetailsP;
+use App\View\Components\detailsA;
 ?>
 
 <div class="container-fluid mt-5">
 <div class="row bg-white mb-5 p-5 d-flex justify-content-center align-items-center">
-<img src="/medias/6point9.png" class="w-50 p-5" alt="...">
+<img src="/medias/6point9.png" class="img-fluid" alt="...">
 </div>
 </div>
 <div class="container">
 <div class="row">
-    <div class="col-4">
-    <img src="/medias/6point9.png" class="shadow p-5" id="michel" />
+    <div class="col-md-4">
+    <img src="/medias/group4.png" class="img-fluid" id="michel" /> 
+    <!-- <img src="/medias/neuf02.png" class="shadow img-fluid" id="michel" /> -->
     </div>
-    <div class="col-8">
+    <div class="col-md-8">
     <div class="row">
-        <div class="col-4">
+        <div class="col-md-4">
         <h1>6 Point 9</h1>
     <p class="d-flex fw-light align-items-center"><span class='fw-bold me-2'>5 </span> 
     <i class="fa-solid fa-star text-warning"></i>
@@ -24,33 +25,40 @@ use App\View\Components\DetailsP;
     <i class="fa-solid fa-star text-warning"></i>
 </p><span>1 avis</span>
         </div>
-        <div class="col-8">
-                <a class="btn btn-danger rounded-pill me-3" href="#" role="button">PRENDRE RENDEZ-VOUS</a>
-                <a class="btn btn-transparent border-danger rounded-pill text-danger me-3 " href="#" role="button">PASSER UNE COMMANDE</a>
+        <div class="col-md-8">
+        <div class="row">
+    <div class="col-md-6 p-0">
+        <a class="btn btn-danger me-3 rounded-pill mt-3" href="#" role="button">PRENDRE RENDEZ-VOUS</a>
+    </div>
+    <div class="col-md-6 p-0">
+        <a class="btn btn-transparent  border-danger rounded-pill text-danger mt-3" href="#" role="button">PASSER UNE COMMANDE</a>
+    </div>
+</div>
+
         </div>
     </div>
-    <h5 class="m-5 text-center">RECHERCHER DANS NOTRE LISTE DE PRESTATIONS</h5>
+    <h5 class="mt-5 mb-5 text-sm-start text-md-center text-lg-center">RECHERCHER DANS NOTRE LISTE DE PRESTATIONS</h5>
 </div>
 </div>
 
 <div class="row">
-    <div class="col-4">
+    <div class="col-md-4">
 <div>
 <p class='text-secondary fw-bold'>Contactez par Telephone</p>
 <p>
-<a class="btn btn-success rounded-pill text-start w-100 " href="#" role="button"><i class="fa-brands fa-whatsapp"></i> Whatsapp</a>
+<a class="btn btn-success rounded-pill text-start w-100 " href="#" role="button"><i class=" me-3 fa-brands fa-whatsapp"></i> Whatsapp</a>
 </p>
 <p>
-<a class="btn btn-danger rounded-pill text-start w-100 " href="#" role="button"><i class="fa-brands fa-whatsapp"></i> Afficher le numero</a>
+<a class="btn btn-danger rounded-pill text-start w-100 " href="#" role="button"><i class=" me-3 fa-solid fa-phone-volume"></i> Afficher le numero</a>
 </p>
 </div>
 <div>
 <p class='text-secondary fw-bold'>Contactez via Chat</p>
 <p>
-<a class="btn btn-success rounded-pill text-start w-100 " href="#" role="button"><i class="fa-brands fa-whatsapp"></i> Commencez a discuter</a>
+<a class="btn btn-success rounded-pill text-start w-100 " href="#" role="button"><i class=" me-3 fa-solid fa-comments"></i> Commencez a discuter</a>
 </p>
 <p>
-<a class="btn btn-dark rounded-pill text-start w-100 " href="#" role="button"><i class="fa-brands fa-whatsapp"></i> Ajouter aux favoris</a>
+<a class="btn btn-dark rounded-pill text-start w-100 " href="#" role="button"><i class=" me-3 fa-solid fa-heart"></i> Ajouter aux favoris</a>
 </p>
 </div>
 <div class="card shadow mt-4 border-0">
@@ -60,16 +68,16 @@ use App\View\Components\DetailsP;
   <div class="progress-bar bg-danger" role="progressbar" aria-label="Example 1px high" style="width: 10%;" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100"></div>
 </div>
 <div class="text-center">
-<img src="/medias/6point9.png" class="p-2 border-2 border border-danger" id="michel2" />
+<img src="/medias/group4.png" class="border-2 border border-danger" id="michel2" />
+<!-- <img src="/medias/6point9.png" class="p-2 border-2 border border-danger" id="michel2" /> -->
 <p class='fw-bold'>6 Point 9</p>
-<h6 class="align-items-center mt-3">
-        <button class="btn bg-light border rounded-pill dark me-2"><i class="fa-brands fa-facebook"></i></button>
-        <button class="btn bg-light border rounded-pill dark me-2"><i class="fa-brands fa-facebook"></i></button>
-        <button class="btn bg-light border rounded-pill dark me-2"><i class="fa-brands fa-facebook"></i></button>
+<h6 class="align-items-center mt-3 mb-3">
+        <button class="btn bg-light border rounded-pill dark me-2"><i class="text-secondary fa-solid fa-phone"></i></button>
+        <button class="btn bg-light border rounded-pill dark me-2"><i class="text-secondary fa-brands fa-facebook"></i></button>
+        <button class="btn bg-light border rounded-pill dark me-2"><i class="text-secondary fa-brands fa-instagram"></i></button>
 </h6>
-<p>Rejoint: 07 Septembre 2023 <br>
-    <span>Ville: Dakar</span>
-</p>
+<p>Rejoint: 07 Septembre 2023</p>
+<p>Ville: Dakar</p>
 <a class="btn btn-danger rounded-pill w-auto m-2" href="#" role="button">PARTAGER</a>
 </div>
 </div>
@@ -85,15 +93,15 @@ use App\View\Components\DetailsP;
 <div class="progress mb-3" style="height: 2px;">
   <div class="progress-bar bg-danger" role="progressbar" aria-label="Example 1px high" style="width: 10%;" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100"></div>
 </div>
-<h6>
-    <a href="#" class="mt-4 text-decoration-none text-dark"><i class="text-danger fa-brands fa-whatsapp"></i> +221 77 777 77 77 </a>
+<h6 class='mb-4'>
+    <a href="#" class="mt-4 text-decoration-none text-dark"><i class="me-2 text-danger fa-brands fa-whatsapp"></i> +221 77 777 77 77 </a>
 </h6>
-<h6>    
-<a href="#" class="mt-4 text-decoration-none text-dark"><i class="text-danger fa-brands fa-whatsapp"></i> www.6Point9.com </a>
-    </h6><h6>
-    <a href="mailto:tayeurgestion@gmail.com" class="mt-4 text-decoration-none text-dark"><i class="text-danger fa-brands fa-whatsapp"></i> 6point9@gmail.com</a>
-    </h6><h6>
-    <a href="#" class="mt-4 text-decoration-none text-dark"><i class="text-danger fa-brands fa-whatsapp"></i> Envoyer un message </a>
+<h6 class='mb-4'>    
+<a href="#" class="mt-4 text-decoration-none text-dark"><i class="me-2 text-danger fa-solid fa-globe"></i> www.6Point9.com </a>
+    </h6><h6 class='mb-4'>
+    <a href="mailto:tayeurgestion@gmail.com" class="mt-4 text-decoration-none text-dark"><i class="me-2 text-danger fa-solid fa-envelope"></i> 6point9@gmail.com</a>
+    </h6><h6 class='mb-4'>
+    <a href="#" class="mt-4 text-decoration-none text-dark"><i class="me-2 text-danger fa-solid fa-comments"></i> Envoyer un message </a>
 </h6>
 </div>
 </div>
@@ -123,9 +131,21 @@ use App\View\Components\DetailsP;
   <div class="progress-bar bg-danger" role="progressbar" aria-label="Example 1px high" style="width: 10%;" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100"></div>
 </div>
 <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3858.5648524382896!2d-17.462279925952277!3d14.73717687372039!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xec10d48e31010a7%3A0x7807ca15a30d5c17!2s6POINT9%20Scatt%20Urbam!5e0!3m2!1sfr!2ssn!4v1694707201978!5m2!1sfr!2ssn" class="w-100 rouned-3" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
-<div class="card p-0 border-0">
+<div id="carouselExampleCaptions" class="carousel slide" data-bs-interval="2000" data-bs-ride="carousel">
+            <div class="carousel-indicators">
+                <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
+            </div>
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                <div class="card p-0 border-0">
     <div class="card-body">
-    <img src="/medias/Ratio.png" class="mb-3 w-100"  alt="...">
+    <div class="d-flex justify-content-around">
+    <img src="/medias/Ratio.png" class="mb-3 w-25"  alt="...">
+    <img src="/medias/Ratio.png" class="mb-3 w-25"  alt="...">
+    <img src="/medias/Ratio.png" class="mb-3 w-25"  alt="...">
+    </div>
     <p>6 Point 9 <br>
     <span class="fw-bold">Shawroom Sacre Coeur</span></p>
     <p class="fw-bold text-black">1 Avis
@@ -134,6 +154,41 @@ use App\View\Components\DetailsP;
     </p>
     </div>
 </div>
+                </div>
+                <div class="carousel-item">
+                <div class="card p-0 border-0">
+    <div class="card-body">
+    <div class="d-flex justify-content-around">
+    <img src="/medias/Ratio.png" class="mb-3 w-25"  alt="...">
+    <img src="/medias/Ratio.png" class="mb-3 w-25"  alt="...">
+    <img src="/medias/Ratio.png" class="mb-3 w-25"  alt="...">
+    </div>    <p>6 Point 9 <br>
+    <span class="fw-bold">Shawroom Sacre Coeur</span></p>
+    <p class="fw-bold text-black">1 Avis
+        <span class="float-end">    <i class="fa-solid fa-star text-warning"></i>
+ 4.65</span>
+    </p>
+    </div>
+</div>
+                </div>
+                <div class="carousel-item">
+                <div class="card p-0 border-0">
+    <div class="card-body">
+    <div class="d-flex justify-content-around">
+    <img src="/medias/Ratio.png" class="mb-3 w-25"  alt="...">
+    <img src="/medias/Ratio.png" class="mb-3 w-25"  alt="...">
+    <img src="/medias/Ratio.png" class="mb-3 w-25"  alt="...">
+    </div>    <p>6 Point 9 <br>
+    <span class="fw-bold">Shawroom Sacre Coeur</span></p>
+    <p class="fw-bold text-black">1 Avis
+        <span class="float-end">    <i class="fa-solid fa-star text-warning"></i>
+ 4.65</span>
+    </p>
+    </div>
+</div>
+                </div>
+            </div>
+        </div>
 </div>
 </div>
 <div class="card mb-5 shadow mt-3 border-0">
@@ -142,52 +197,85 @@ use App\View\Components\DetailsP;
 <div class="progress mb-3" style="height: 2px;">
   <div class="progress-bar bg-danger" role="progressbar" aria-label="Example 1px high" style="width: 10%;" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100"></div>
 </div>
-<div class="form-check mb-3">
+<!-- <div class="form-check mb-3">
   <label class="form-check-label fw-bold d-flex justify-content-between" for="defaultCheck1">
-    Lundi <span class='text-success'>Ouvert <span class='text-dark'>de 8h à 20h</span></span><span class='text-end'>  <input class="form-check-input" type="checkbox" value="">
+    Lundi <span class='text-success'>Ouvert <span class='text-dark'>de 8h à 20h</span></span><span class='text-end'>  <i class="fa-solid fa-square-check text-success"></i>
 </span>
 </label>
 </div>
 <div class="form-check mb-3">
   <label class="form-check-label fw-bold d-flex justify-content-between" for="defaultCheck1">
-    Mardi <span class='text-success'>Ouvert <span class='text-dark'>de 8h à 20h</span></span><span class='text-end'>  <input class="form-check-input" type="checkbox" value="">
+    Mardi <span class='text-success'>Ouvert <span class='text-dark'>de 8h à 20h</span></span><span class='text-end'>  <i class="fa-solid fa-square-check text-success"></i>
 </span>
 </label>
 </div>
 <div class="form-check mb-3">
   <label class="form-check-label fw-bold d-flex justify-content-between" for="defaultCheck1">
-    Mercredi <span class='text-success'>Ouvert <span class='text-dark'>de 8h à 20h</span></span><span class='text-end'>  <input class="form-check-input" type="checkbox" value="">
+    Mercredi <span class='text-success'>Ouvert <span class='text-dark'>de 8h à 20h</span></span><span class='text-end'>  <i class="fa-solid fa-square-check text-success"></i>
 </span>
 </label>
 </div>
 <div class="form-check mb-3">
   <label class="form-check-label fw-bold d-flex justify-content-between" for="defaultCheck1">
-    Jeudi <span class='text-success'>Ouvert <span class='text-dark'>de 8h à 20h</span></span><span class='text-end'>  <input class="form-check-input" type="checkbox" value="">
+    Jeudi <span class='text-success'>Ouvert <span class='text-dark'>de 8h à 20h</span></span><span class='text-end'>  <i class="fa-solid fa-square-check text-success"></i>
 </span>
 </label>
 </div>
 <div class="form-check mb-3">
   <label class="form-check-label fw-bold d-flex justify-content-between" for="defaultCheck1">
-    Vendredi <span class='text-success'>Ouvert <span class='text-dark'>de 8h à 20h</span></span><span class='text-end'>  <input class="form-check-input" type="checkbox" value="">
+    Vendredi <span class='text-success'>Ouvert <span class='text-dark'>de 8h à 20h</span></span><span class='text-end'>  <i class="fa-solid fa-square-check text-success"></i>
 </span>
 </label>
 </div>
 <div class="form-check mb-3">
   <label class="form-check-label fw-bold d-flex justify-content-between" for="defaultCheck1">
-    Samedi <span class='text-success'>Ouvert <span class='text-dark'>de 8h à 20h</span></span><span class='text-end'>  <input class="form-check-input" type="checkbox" value="">
+    Samedi <span class='text-success'>Ouvert <span class='text-dark'>de 8h à 20h</span></span><span class='text-end'>  <i class="fa-solid fa-square-check text-success"></i>
 </span>
 </label>
 </div>
 <div class="form-check mb-3">
   <label class="form-check-label fw-bold d-flex justify-content-between" for="defaultCheck1">
-    Dimanche <span class='text-danger'>Fermé <span class='text-dark'>toute la journée</span></span><span class='text-end'>  <input class="form-check-input" type="checkbox" value="">
+    Dimanche <span class='text-danger'>Fermé <span class='text-dark'>toute la journée</span></span><span class='text-end'>  <i class="fa-solid fa-square-xmark text-danger"></i>
 </span>
 </label>
-</div>
+</div> -->
+
+<!-- <div class="d-flex justify-content-between">
+  <div class="flex-column">
+    <p>Lundi</p>
+    <p>Mardi</p>
+    <p>Mercredi</p>
+    <p>Jeudi</p>
+    <p>Vendredi</p>
+    <p>Samedi</p>
+    <p>Dimanche</p>
+  </div>
+  <div class="flex-column">
+    <p>Ouvert <span class='text-dark'>de 8h à 20h</span></p>
+    <p>Ouvert <span class='text-dark'>de 8h à 20h</span></p>
+    <p>Ouvert <span class='text-dark'>de 8h à 20h</span></p>
+    <p>Ouvert <span class='text-dark'>de 8h à 20h</span></p>
+    <p>Ouvert <span class='text-dark'>de 8h à 20h</span></p>
+    <p>Ouvert <span class='text-dark'>de 8h à 20h</span></p>
+    <p>Ouvert <span class='text-dark'>de 8h à 20h</span></p>
+  </div>
+  <div class="flex-column">
+    <p> <i class="fa-solid mt-2 fa-square-check text-success"></i> </p>
+    <p> <i class="fa-solid mt-2 fa-square-check text-success"></i> </p>
+    <p> <i class="fa-solid mt-2 fa-square-check text-success"></i> </p>
+    <p> <i class="fa-solid mt-2 fa-square-check text-success"></i> </p>
+    <p> <i class="fa-solid mt-2 fa-square-check text-success"></i> </p>
+    <p> <i class="fa-solid mt-2 fa-square-check text-success"></i> </p>
+    <p> <i class="fa-solid mt-2 fa-square-check text-success"></i> </p>
+  </div>
+</div> -->
+
+<img src="/medias/details.png" class="w-100">
+
 </div>
 </div>
     </div>
-    <div class="col-8">
+    <div class="col-md-8">
 <div class="card shadow border-0">
 <div class="card-body">
 <p class='fw-bold'>Description</p>
@@ -206,19 +294,62 @@ use App\View\Components\DetailsP;
 <h1 class='fw-bold mt-3'>Galerie | Nos realisations</h1>
 <div class="row">
     <div class="col-12 p-5">
-    <img src="/medias/nf.jpeg.png" class="w-100" />
+    <div class="card border-0 shadow-sm rounded-3">
+  <div class="card-bg" style="background-image: url('/medias/cardimage.png');"></div>
+  <div class="card-icon bg-white d-flex justify-content-center align-items-center">
+  <img src="/medias/cardimage.png" class="w-100" alt="...">
+</div>
+<label class="text-white p-2 bg-black d-flex justify-content-between">
+    Taille Basse <span class='text-end text-secondary'>Hier 23:50</span>
+</label>
+    <div class="d-flex align-items-center mt-3">
+      <button class="btn btn-transparent text-danger"><i class="fa-regular fa-heart"></i> 20k</button>
+      <button class="btn btn-transparent text-danger"><i class="fa-solid fa-share-nodes"></i> 34</button>
+      <button class="btn btn-transparent text-danger"><i class="fa-solid fa-comment-dots"></i> 576</button>
+    </div>
+</div>    </div>
+</div>
+<div class="row">
+<div id="carouselExampleCaptions" class="carousel slide" data-bs-interval="2000" data-bs-ride="carousel">
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                <div class="card p-0 border-0">
+    <div class="card-body">
+    <div class="d-flex justify-content-around">
+    <img src="/medias/card-image (1).png" class="w-25 rounded-3"  height="auto">
+    <img src="/medias/card-image.png" class="w-25 rounded-3"  height="auto">
+    <img src="/medias/cardimage.png" class="w-25 rounded-3"  height="auto">
+    </div>
+    
     </div>
 </div>
-<div class="row mt-3">
-    <div class="col-4">
-    <img src="/medias/nf.jpeg.png" class="w-100" height='300px' />
+                </div>
+                <div class="carousel-item">
+                <div class="card p-0 border-0">
+    <div class="card-body">
+    <div class="d-flex justify-content-around">
+   <img src="/medias/card-image (1).png" class="w-25 rounded-3"  height="auto">
+    <img src="/medias/cardimage.png" class="w-25 rounded-3"  height="auto">
+    <img src="/medias/card-image.png" class="w-25 rounded-3"  height="auto">
+    </div>    
     </div>
-    <div class="col-4">
-    <img src="/medias/nf2.png" class="w-100" height='300px' />
+</div>
+                </div>
+                <div class="carousel-item">
+                <div class="card p-0 border-0">
+    <div class="card-body">
+    <div class="d-flex justify-content-around">
+    <img src="/medias/cardimage.png" class="w-25 rounded-3"  height="auto">
+   <img src="/medias/card-image (1).png" class="w-25 rounded-3"  height="auto">
+    <img src="/medias/card-image.png" class="w-25 rounded-3"  height="auto">
+    </div>    
     </div>
-    <div class="col-4">
-    <img src="/medias/nf3.png" class="w-100" height='300px' />
-    </div>
+</div>
+                </div>
+            </div>
+        </div>
+
+
 </div>
 </div>
 </div>
@@ -231,13 +362,13 @@ use App\View\Components\DetailsP;
 <div class="card bg-light shadow-sm m-4 border-0">
 <div class="card-body">
     <div class="row">
-        <div class="col-2">
+        <div class="col-md-2">
         <img src="/medias/avatar.png.png" class="border border-2 border-danger" id="michel2" />
         </div>
         <div class="col">
         <p>
     M***E <br> <span>Date-14 Nov.2022</span>
-    <br> <span>    <i class="fa-solid fa-star text-warning"></i>
+    <br> <span>    <i class="fa-solid fa-star text-warning"></i>  <i class="fa-solid fa-star text-warning"></i>
     <i class="fa-solid fa-star text-warning"></i><i class="fa-solid fa-star text-warning"></i><i class="fa-solid fa-star text-warning"></i>
 </span>
 </p>
@@ -250,13 +381,13 @@ use App\View\Components\DetailsP;
 <div class="card bg-light shadow-sm m-4 border-0">
 <div class="card-body">
     <div class="row">
-        <div class="col-2">
+        <div class="col-md-2">
         <img src="/medias/avatar.png.png" class="border border-2 border-danger" id="michel2" />
         </div>
         <div class="col">
         <p>
     M***E <br> <span>Date-14 Nov.2022</span>
-    <br> <span>    <i class="fa-solid fa-star text-warning"></i>
+    <br> <span>   <i class="fa-solid fa-star text-warning"></i>    <i class="fa-solid fa-star text-warning"></i>
     <i class="fa-solid fa-star text-warning"></i><i class="fa-solid fa-star text-warning"></i><i class="fa-solid fa-star text-warning"></i>
 </span>
 </p>
@@ -335,21 +466,21 @@ use App\View\Components\DetailsP;
 </div>
 </div>
 
-</div><div class="row d-flex justify-content-center align-items-center  m-5">
+</div><div class="row d-flex justify-content-center align-items-center m-md-5 m-lg-5">
 <h1 class=" text-center">NE NOUS CROYEZ PAS SUR PAROLE...</h1>
-<a class="btn btn-danger rounded-pill w-auto mt-3" href="#" role="button">LIRE TOUS LES TEMOIGNAGES</a>
+<a class="btn btn-danger rounded-pill w-auto m-3" href="#" role="button">LIRE TOUS LES TEMOIGNAGES</a>
 </div>
 </div>
 </div>
 
-<section id="tem" class='p-5'>
-<div class="container p-5">
+<section id="tem" class=''>
+<div class="container p-md-5 p-sm-0 p-lg-5">
 <div class="row">
-    <div class="col-md-4 text-white">
+    <div class="col-md-4 mb-4 mt-4 text-white">
     <div class="card bg-back text-center bg-opacity-2 shadow border-0 rounded-5 d-flex justify-content-center align-items-center flex-column">
-  <div class="card-body">
+  <div class="card-body bodycard rounded-5">
   <p >
-<span class="text-danger fs-1">"</span>
+<span class="text-danger me-2 fs-1"><i class="fa-solid fa-quote-left"></i></span>
     Lorem ipsum, dolor sit amet consectetur adipisicing elit ugit rerum quibusdam nulla quam sequi </p>
     <img src="/medias/Ellipse 9.png" class="w-25" alt="...">
     <h6>JOHN SMITH</h6>
@@ -357,11 +488,11 @@ use App\View\Components\DetailsP;
 </div>
 </div>
     </div>
-    <div class="col-md-4 text-white">
+    <div class="col-md-4 mb-4 mt-4 text-white">
     <div class="card bg-back text-center bg-opacity-2 shadow border-0 rounded-5 d-flex justify-content-center align-items-center flex-column">
-  <div class="card-body">
+  <div class="card-body bodycard rounded-5">
   <p >
-<span class="text-danger fs-1">"</span>
+<span class="text-danger fs-1 me-2"><i class="fa-solid fa-quote-left"></i></span>
     Lorem ipsum, dolor sit amet consectetur adipisicing elit ugit rerum quibusdam nulla quam sequi </p>
     <img src="/medias/Ellipse 9.png" class="w-25" alt="...">
     <h6>JOHN SMITH</h6>
@@ -369,11 +500,11 @@ use App\View\Components\DetailsP;
 </div>
 </div>
     </div>
-    <div class="col-md-4 text-white">
+    <div class="col-md-4 mb-4 mt-4 text-white">
     <div class="card bg-back text-center shadow border-0 rounded-5 d-flex justify-content-center align-items-center flex-column">
-  <div class="card-body">
+  <div class="card-body bodycard rounded-5">
   <p >
-<span class="text-danger fs-1">"</span>
+<span class="text-danger fs-1 me-2"><i class="fa-solid fa-quote-left"></i></span>
     Lorem ipsum, dolor sit amet consectetur adipisicing elit ugit rerum quibusdam nulla quam sequi </p>
     <img src="/medias/Ellipse 9.png" class="w-25" alt="...">
     <h6>JOHN SMITH</h6>
@@ -391,8 +522,8 @@ use App\View\Components\DetailsP;
     position: relative;
     border-radius: 50%;
     bottom: 150px;
-    width: 200px;
-    height: 200px;
+    width: 150px;
+    height: 150px;
 }
 #michel2{
     border-radius: 50%;
@@ -400,12 +531,28 @@ use App\View\Components\DetailsP;
     height: 70px;
 }
 #tem{
-        background-image:  url('/medias/group.png'), linear-gradient(rgba(0, 0, 0), rgba(0, 0, 0));
+  background-image:  linear-gradient(rgba(56, 55, 55, 0.6),rgb(56, 55, 55, 0.6)), url('/medias/neuf3.png');
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
+    background-attachment: fixed;
     }
     .bg-back{
-        background-color: rgb(79, 78, 78, 0.5) !important;
+        background-color: rgb(59, 78, 78, 0.5) !important;
+    }
+    .bodycard{
+      border: 10px solid rgb(59, 78, 78, 0.3);
+    }
+
+    @media (max-width: 768px) {
+      #michel{
+    bottom: 100px;
+    width: 100px;
+    height: 100px;
+}
     }
 </style>
+
+
+
+   
