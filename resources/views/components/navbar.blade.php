@@ -38,7 +38,7 @@ use App\View\Components\Navbar;
                 </li>
             </ul>
             <div class="d-flex log">
-        <a class="btn btn-danger btn1 me-3 rounded-pill" href="#" role="button">PRENDRE PARTENAIRE</a>
+        <a class="btn btn-danger btn1 me-3 rounded-pill" href="#" role="button">DEVENIR PARTENAIRE</a>
         <a class="btn btn-transparent btn2 px-5 border-danger rounded-pill text-danger" href="#" role="button">S'IDENTIFIER</a>
         </div>
     </div>

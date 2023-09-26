@@ -329,7 +329,7 @@
         height: auto;
     }
 .inputG{
-    width: 50%;
+    width: 50% !important;
 }
 @media (max-width:996px) {
     .bgclass{
