@@ -1,13 +1,15 @@
 {
-  "version": 2,
-  "routes": [
-    {
-      "src": "/app/(.*)",
-      "dest": "/app"
-    },
-    {
-      "src": "/(.*)",
-      "dest": "/app"
-    }
-  ]
-}
+    "version": 2,
+    "builds": [
+      {
+        "src": "resources", 
+        "use": "@vercel/static"
+      }
+    ],
+    "routes": [
+      {
+        "src": "/(.*)",
+        "dest": "resources/views/accueil.blade." 
+      }
+    ]
+  }

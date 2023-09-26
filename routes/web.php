@@ -42,8 +42,4 @@ Route::get('/detailsP', function () {
     return view('detailsP');
 })->name('detailsP');
 
-Route::get('/app', function () {
-    return view('accueil'); 
-});
-
 ?>
